@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class connectionManager {
 	public static Connection databaseConnection;
-	
+	//TEST GIT
 	public static void createConnection(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver"); 
