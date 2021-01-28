@@ -51,7 +51,7 @@ public class BookServlet extends HttpServlet{
 		session.setAttribute("totalpages", totalPages);		
 		session.setAttribute("curpage", _Page);
 		try {
-			session.setAttribute("products", ProductUtils.retriveProducts(_StartID, _EndID));
+			session.setAttribute("products", ProductUtils.retriveProductsByCategory("book"));
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block rimuovere
 			e.printStackTrace();

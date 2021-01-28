@@ -51,7 +51,7 @@ public class GiftcardServlet extends HttpServlet{
 		session.setAttribute("totalpages", totalPages);		
 		session.setAttribute("curpage", _Page);
 		try {
-			session.setAttribute("products", ProductUtils.retriveProducts(_StartID, _EndID));
+			session.setAttribute("products", ProductUtils.retriveProductsByCategory("giftcard"));
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block rimuovere
 			e.printStackTrace();

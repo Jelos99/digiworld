@@ -36,7 +36,6 @@ public class ShopServlet extends HttpServlet{
 		int _EndID = 0;
 		
 		String Page = request.getParameter("p");
-		String Category = request.getParameter("category");
 		
 		if(Page != null) {
 			try {_Page = Integer.parseInt(Page); } catch(NumberFormatException e) {}						
@@ -52,12 +51,8 @@ public class ShopServlet extends HttpServlet{
 		session.setAttribute("totalpages", totalPages);		
 		session.setAttribute("curpage", _Page);
 		try {
-			if(Category !=null) {
-				session.setAttribute("products" , ProductUtils.retriveProductsByCategory(Category));
-			} else {
-				session.setAttribute("products", ProductUtils.retriveProducts(_StartID, _EndID));
-			}
-			} catch (SQLException e) {
+			session.setAttribute("products", ProductUtils.retriveProducts(_StartID, _EndID));
+		} catch (SQLException e) {
 			// TODO Auto-generated catch block rimuovere
 			e.printStackTrace();
 		}
