@@ -227,4 +227,21 @@ public class ProductUtils {
 		return 0;
 		
 	}
+	
+	public static boolean deleteProductById(int prod_id) {
+		String QUERY = "DELETE FROM products WHERE product_id = ?";
+		
+		PreparedStatement preparedStatement;
+		try {
+			preparedStatement = connectionManager.databaseConnection.prepareStatement(QUERY);
+			preparedStatement.setInt(1, prod_id);
+			
+			if(preparedStatement.executeUpdate() > 0)
+			{
+				return true;
+			}
+			
+		} catch (SQLException e) { e.printStackTrace(); }		
+		return false;
+	}
 }

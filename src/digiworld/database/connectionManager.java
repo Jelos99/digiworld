@@ -9,8 +9,9 @@ public class connectionManager {
 	//TEST GIT
 	public static void createConnection(){
 		try {
-			Class.forName("com.mysql.jdbc.Driver"); 
-			databaseConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/prova?useSSL=false&serverTimezone=UTC","root","elos");
+			Class.forName("com.mysql.cj.jdbc.Driver"); 
+			databaseConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/digiworld?useSSL=false&serverTimezone=UTC","digiworld","digiworld");
+	
 		} catch (SQLException | ClassNotFoundException e) {
 			// TODO: Autogenerato, da cambiare
 			e.printStackTrace();

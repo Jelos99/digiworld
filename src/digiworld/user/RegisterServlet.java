@@ -46,6 +46,7 @@ public class RegisterServlet extends HttpServlet{
 			{
 				RequestDispatcher req = request.getRequestDispatcher("/skeletons/pages/login.jsp");
 				req.include(request, response);
+				response.sendRedirect("index");
 			} else {
 				RequestDispatcher req = request.getRequestDispatcher("/skeletons/pages/register.jsp");
 				session.setAttribute("error", "Registration Failed");	

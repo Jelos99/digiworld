@@ -52,11 +52,12 @@ public class EditProductServlet extends HttpServlet{
 						Product_region, 
 						Product_isDLC, Product_Category
 					))) 
-				{session.setAttribute("success", "Prodotto modificato con successo"); } else { session.setAttribute("error", "Si Ã© verificato un errore nella modifica del prodotto.");}		
+				{session.setAttribute("success", "Prodotto modificato con successo"); } else { session.setAttribute("error", "Si è verificato un errore nella modifica del prodotto.");}		
 			}
 		} catch (SQLException e1) {
 			// TODO Auto-generated catch bloc
 			e1.printStackTrace();
+			
 		} 
 	}
 }

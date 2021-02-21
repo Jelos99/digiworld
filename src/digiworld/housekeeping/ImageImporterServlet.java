@@ -79,6 +79,8 @@ public class ImageImporterServlet extends HttpServlet {
 							+ File.separator
 							+ fileName
 							+ "<br>\r\n");
+				
+
 				}
 			}
 	    }

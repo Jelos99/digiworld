@@ -2,6 +2,10 @@ package digiworld.store;
 
 import java.sql.SQLException;
 
+/**
+ * @author solej
+ *
+ */
 public class CartItem {
 	
 	private int product_id;
@@ -40,6 +44,13 @@ public class CartItem {
 		return this.cart_id;
 	}
 	
+	public void setCartID(int cart_id)
+	{
+		this.cart_id = cart_id;
+	}
+
+	
+
 	public String productName()
 	{
 		try {

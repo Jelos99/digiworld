@@ -53,10 +53,10 @@
                             <ul class="pagination justify-content-end mt-50">
 <c:forEach var = "i" begin = "0" end = "${pages}">
 <c:if test="${ curpage == i }">
-                                <li class="page-item active"><a class="page-link" href="shop?p=${i}">${i}</a></li>
+                                <li class="page-item active"><a class="page-link" href="music?p=${i}">${i}</a></li>
 </c:if>
 <c:if test="${ curpage != i }">
-                                <li class="page-item"><a class="page-link" href="shop?p=${i}">${i}</a></li>
+                                <li class="page-item"><a class="page-link" href="music?p=${i}">${i}</a></li>
 </c:if>
 </c:forEach>                                
                             </ul>

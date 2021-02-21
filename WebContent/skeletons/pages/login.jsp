@@ -9,7 +9,7 @@
                     <div class="col-12 col-lg-8">
                         <div class="checkout_details_area mt-50 clearfix">
                             <div class="cart-title">
-                                <h2>Login to Keyprest</h2>
+                                <h2>Login to DigiWorld</h2>
                             </div>
 
                             <form action="login" method="post">

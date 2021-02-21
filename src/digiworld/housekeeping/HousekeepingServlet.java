@@ -106,7 +106,7 @@ public class HousekeepingServlet extends HttpServlet{
 
 		if(_Page <= totalPages)
 		{			
-			_EndID = _StartID + 10;
+			_EndID = _StartID + 50;
 			
 			if(_EndID > totalProducts) { _EndID = totalProducts; }
 		}

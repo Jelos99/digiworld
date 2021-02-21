@@ -27,7 +27,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index"><img src="https://i.imgur.com/OiZ24CL.png" alt=""></a>
+                <a href="index"><img src="static/img/core-img/logodigiworld.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -43,7 +43,7 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="https://i.imgur.com/OiZ24CL.png" alt=""></a>
+                <a href="index"><img src="static/img/core-img/logodigiworld.png" alt=""></a>
             </div>
             <!-- Amado Nav -->
 			

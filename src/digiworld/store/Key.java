@@ -16,7 +16,7 @@ public class Key {
 	
 	public int getKeyID()
 	{
-		return this.getKeyID();
+		return this.key_id;
 	}
 	
 	public int getProductID()
@@ -37,5 +37,20 @@ public class Key {
 	public void setSold(boolean sold)
 	{
 		this.sold = sold;
+	}
+
+	public void setKeyID(int key_id) {
+		this.key_id = key_id;
+		
+	}
+
+	public void setProductID(int product_id) {
+		this.product_id = product_id;
+		
+	}
+
+	public void setKey(String key) {
+		this.key = key;
+		
 	}
 }

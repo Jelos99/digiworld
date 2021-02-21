@@ -10,7 +10,7 @@
                     <div class="col-12 col-lg-8">
                         <div class="checkout_details_area mt-50 clearfix">
                             <div class="cart-title">
-                                <h2>Key Import for (${ product.getName() })</h2>
+                                <h2>Key Import</h2>
                             </div>
 
                             <form action="importkeys" method="post">

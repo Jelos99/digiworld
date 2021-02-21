@@ -38,7 +38,7 @@ public class CheckoutServlet extends HttpServlet{
 				out.println("<h6>getting cart items...</h6>"); 
 				if(!cart_items.isEmpty())
 				{
-					if(Checkout_utils.processCart(cart_items))
+					if(Checkout_utils.processCart(cart_items,  SessionKey))
 					{
 						for(CartItem item: cart_items)
 						{

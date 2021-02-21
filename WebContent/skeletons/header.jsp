@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Meta per responsive -->
 
-    <title>Keyprest</title>
-    <link rel="icon" href="static/img/core-img/favicon.ico">
+    <title>DigiWorld</title>
+    <link rel="icon" href="static/img/core-img/logodigiworld.png">
 
     <link rel="stylesheet" href="static/css/core-style.css">
     <!-- <link rel="stylesheet" href="style.css"> -->

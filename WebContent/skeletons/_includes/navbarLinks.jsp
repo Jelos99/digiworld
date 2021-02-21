@@ -34,6 +34,7 @@
                     <c:if test="${logged_in}">
                     <jsp:include page="navbarCart.jsp" />
                     <li><a href="user">Your Profile</a></li>
+                     <li><a href="orders">Orders</a></li>
                     <c:if test="${housekeeper}">
                     <li><a href="housekeeping">Housekeeping</a></li>
                     </c:if>
